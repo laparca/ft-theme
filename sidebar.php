@@ -1,0 +1,8 @@
+<div class="sidebar1">    
+	<aside>
+		<ul>
+			<?php	if(!function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
+			<?php endif; ?>
+		</ul>
+	</aside>
+</div>
